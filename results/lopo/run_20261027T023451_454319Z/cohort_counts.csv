@@ -1,0 +1,11 @@
+subject,input_nights,input_labeled_nights,input_low_nights,model_eligible_nights,included_nights,included_low_nights,eligibility_excluded_nights,missing_predictor_excluded_nights,included_nonlow_nights
+c1s01,7,7,3,7,7,3,0,0,4
+c1s02,11,11,0,11,11,0,0,0,11
+c1s03,10,10,2,10,10,2,0,0,8
+c1s04,6,6,1,6,6,1,0,0,5
+c1s05,13,13,6,13,13,6,0,0,7
+c2s01,13,13,5,13,13,5,0,0,8
+c2s02,9,9,2,9,9,2,0,0,7
+c2s03,12,12,2,12,12,2,0,0,10
+c2s04,11,11,4,11,11,4,0,0,7
+c2s05,7,7,6,7,7,6,0,0,1
