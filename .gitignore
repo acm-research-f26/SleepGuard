@@ -1,0 +1,8 @@
+/data/physiocgm/raw/
+
+/D1NAMO_DATA/
+/r_peaks.csv
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
