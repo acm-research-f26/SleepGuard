@@ -1,0 +1,85 @@
+{
+  "input_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/processed/model_data.parquet",
+  "input_sha256": "c37c781baf5f19269c4fcdbe0a2283846aa4a82860f75358696aa2d1e2920989",
+  "column_rename": {
+    "participant_id": "subject",
+    "night": "night_id",
+    "hypo": "hypo_night",
+    "lf_hf_presleep": "lfhf_presleep"
+  },
+  "eligibility_column": "Model_Eligible",
+  "eligibility_rule": "Upstream flag is True; missing flags excluded. Not independently audited.",
+  "night_identifier": "Calendar night key; not an inferred prediction timestamp or sleep onset.",
+  "feature_sets": {
+    "A": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep"
+    ],
+    "B1": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "rmssd_presleep"
+    ],
+    "B2": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "lfhf_presleep"
+    ],
+    "B3": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "rmssd_presleep",
+      "lfhf_presleep"
+    ]
+  },
+  "classifiers": {
+    "logistic": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 5000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "random_forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 10,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "missing_policy": "complete_case",
+  "n_bootstraps": 1000,
+  "bootstrap_seed": 20261026,
+  "versions": {
+    "python": "3.14.3",
+    "sklearn": "1.9.1",
+    "pandas": "2.3.3",
+    "numpy": "2.5.1"
+  },
+  "interval_method": "paired patient-cluster percentile bootstrap of fixed LOPO predictions",
+  "interpretation": "Exploratory; does not fully capture refitting/model-selection uncertainty."
+}
