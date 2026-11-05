@@ -1,0 +1,11 @@
+held_out_subject,train_subjects,train_nights,test_nights,train_low_nights,test_low_nights
+c1s01,"c1s02,c1s03,c1s04,c1s05,c2s01,c2s02,c2s03,c2s04,c2s05",58,4,20,2
+c1s02,"c1s01,c1s03,c1s04,c1s05,c2s01,c2s02,c2s03,c2s04,c2s05",53,9,22,0
+c1s03,"c1s01,c1s02,c1s04,c1s05,c2s01,c2s02,c2s03,c2s04,c2s05",55,7,21,1
+c1s04,"c1s01,c1s02,c1s03,c1s05,c2s01,c2s02,c2s03,c2s04,c2s05",57,5,21,1
+c1s05,"c1s01,c1s02,c1s03,c1s04,c2s01,c2s02,c2s03,c2s04,c2s05",53,9,18,4
+c2s01,"c1s01,c1s02,c1s03,c1s04,c1s05,c2s02,c2s03,c2s04,c2s05",51,11,17,5
+c2s02,"c1s01,c1s02,c1s03,c1s04,c1s05,c2s01,c2s03,c2s04,c2s05",59,3,20,2
+c2s03,"c1s01,c1s02,c1s03,c1s04,c1s05,c2s01,c2s02,c2s04,c2s05",57,5,21,1
+c2s04,"c1s01,c1s02,c1s03,c1s04,c1s05,c2s01,c2s02,c2s03,c2s05",56,6,19,3
+c2s05,"c1s01,c1s02,c1s03,c1s04,c1s05,c2s01,c2s02,c2s03,c2s04",59,3,19,3

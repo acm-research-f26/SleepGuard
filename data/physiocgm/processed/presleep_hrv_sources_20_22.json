@@ -1,0 +1,981 @@
+[
+  {
+    "subject": "c1s01",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-06-11 00:00:00",
+      "2022-06-12 00:00:00",
+      "2022-06-13 00:00:00",
+      "2022-06-15 00:00:00",
+      "2022-06-23 00:00:00",
+      "2022-06-24 00:00:00",
+      "2022-06-26 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_06_11-07_43_00",
+        "ecg_sha256": "c9411dc084c958f495d472bd23d76d0357406bcf8722c22741fae0307a0efdcf",
+        "summary_sha256": "0531e5041b854cdc877360b1b80875294cc524a324b38e14cdeaa25f7813231b",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_11-07_43_00/ Record 2_2022_06_11-07_43_00_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      },
+      {
+        "recording": "2022_06_12-21_15_04",
+        "ecg_sha256": "c4fdfa9c26a104b6912a4fd413d0088f9cb0dc2654819634388ed570f52a8a7f",
+        "summary_sha256": "876b62eb1d6b6bca50ed8b4cf44892d8b4b2bd29e2a6c2d8821b40924dbe07fe",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_12-21_15_04/ Record 7_2022_06_12-21_15_04_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      },
+      {
+        "recording": "2022_06_13-20_39_11",
+        "ecg_sha256": "1399eaae9d04cf2801b1af78d8a2866c926e4149f84cd64637bfa376b24d1c79",
+        "summary_sha256": "e396ed0d17c64b98f91354fb80feff955a59b284c9ee20ae15d2e276076a8cee",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_13-20_39_11/Record 10_2022_06_13-20_39_11_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      },
+      {
+        "recording": "2022_06_15-21_48_55",
+        "ecg_sha256": "17314032a18772223b29e6077ffcde308209f48dc8c6fac08730b652bf07b231",
+        "summary_sha256": "08728d1bd01f36bb11f7f44b203c35886f51d9d4f1aaaad6dea882c0c205766b",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_15-21_48_55/Record 1_2022_06_15-21_48_55_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      },
+      {
+        "recording": "2022_06_23-19_23_01",
+        "ecg_sha256": "5a9b4cad75829474f1e8bbbd896f7885de09d12b01975023cdfe1256c2452adc",
+        "summary_sha256": "ef7eacd0a1be7c312f4974b086a89a4abbf3bbe414b1f06eda906e9856144d66",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_23-19_23_01/Record 1_2022_06_23-19_23_01_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      },
+      {
+        "recording": "2022_06_24-13_54_03",
+        "ecg_sha256": "aa127abf01841f3d599468a0913deea1d232903be1fd8ad09d4a08a5358ff6f7",
+        "summary_sha256": "05179d3af5512bd4ee69becce23769f577eb0a9deefae76c4e5bf7ce02cc53aa",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_24-13_54_03/ Record 2_2022_06_24-13_54_03_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      },
+      {
+        "recording": "2022_06_26-10_57_47",
+        "ecg_sha256": "78ff6703e7060cd719bdb67cb705ab3087a0fef19b4ab035c1060f64d90717d0",
+        "summary_sha256": "0d6a817a5b90be63a4b4709cfa0e57b38909e1475a62d2c287e974d329363dd3",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/zephyr/2022_06_26-10_57_47/ Record 7_2022_06_26-10_57_47_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51652388"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c1s02",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-05-20 00:00:00",
+      "2022-05-22 00:00:00",
+      "2022-05-23 00:00:00",
+      "2022-05-26 00:00:00",
+      "2022-05-27 00:00:00",
+      "2022-05-29 00:00:00",
+      "2022-05-30 00:00:00",
+      "2022-05-31 00:00:00",
+      "2022-06-01 00:00:00",
+      "2022-06-02 00:00:00",
+      "2022-06-03 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_05_20-20_04_23",
+        "ecg_sha256": "363480f63970cff83d542e05c825158044ec7e8dfbf60e2434f8f0c6da0b90bd",
+        "summary_sha256": "93f025d80f97fc1a116603742f0505a760382a8aa472ceacc2f31e440e33e98f",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_20-20_04_23/Record 2_2022_05_20-20_04_23_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_05_22-11_06_55",
+        "ecg_sha256": "d8159a17348ffbfb3f7941660a0c6d2ea116b7f8a4345db066c3996865e64494",
+        "summary_sha256": "f9590fa52a694d308af30f29729951e4edeff3a3f5d5d6e64258a9c563d0a22d",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_22-11_06_55/Record 7_2022_05_22-11_06_55_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_05_23-21_16_47",
+        "ecg_sha256": "8ec6d6fb50f2b2e039349a2134722c8c86df5430bde2cacb7ab9b88801eda42b",
+        "summary_sha256": "dc334f568e8cfec1a5313f39e69bf74b1446aad561a363d4acbe435fdfe00ab2",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_23-21_16_47/Record 8_2022_05_23-21_16_47_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_05_27-12_50_29",
+        "ecg_sha256": "e52513fb2c7fc124889e3a4f419ed199b9f37f3f8517817393876f4b632f1359",
+        "summary_sha256": "654cedbff5d365f5cf64035955af921c775cfa4ce41409f8b7d17cff2ee61096",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_27-12_50_29/Record 11_2022_05_27-12_50_29_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_05_29-20_55_25",
+        "ecg_sha256": "0e9e8813d005f3f04651730c2da639ab123a9382b2abdc8c0e69d4b179a9d6e1",
+        "summary_sha256": "6518f24cd59551e42e94fe216d01869f81bde7715e5a4d6a986e37ffee29fd2b",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_29-20_55_25/Record 3_2022_05_29-20_55_25_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_05_30-18_28_16",
+        "ecg_sha256": "737080fbd7ebf83195977b39e3497af3139a5d467290f108b5e305347460e284",
+        "summary_sha256": "c1387ec46a1550eb5fa72833778001130dc6e26f5dfa1b73910c984f5d5a3555",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_30-18_28_16/Record 5_2022_05_30-18_28_16_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_05_31-20_51_38",
+        "ecg_sha256": "b557710c32684788405f97c86c1b72a05efbf4301f78ceb16c8fdc6214ea2a9c",
+        "summary_sha256": "98a5acd65e057fcd01646c96ee01b4126b35e81755dbda3abc05b06307df121e",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_05_31-20_51_38/Record 4_2022_05_31-20_51_38_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_06_01-19_52_39",
+        "ecg_sha256": "ae98a7fd14a59ec8f8c567e140afd7c25b07544e502ae8b4dd34624e778a834f",
+        "summary_sha256": "7b2caf552080d0fb244ff45aa316b20e91be5186fca91f8fd547deaa6635963d",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_06_01-19_52_39/Record 2_2022_06_01-19_52_39_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_06_02-19_41_41",
+        "ecg_sha256": "7b32a617259768602c01644675152cae1c243c64821c06db10b0fae6e3452315",
+        "summary_sha256": "57ce22732a427a0c75bd2b54e3850cbf80d7e001115e19ca3b7a770811e1b6b0",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_06_02-19_41_41/Record 4_2022_06_02-19_41_41_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      },
+      {
+        "recording": "2022_06_03-20_54_03",
+        "ecg_sha256": "7ef00e141cd24cbc58bc6edb462b8d077d6a642d3afd0c8f16917162ec7d4c62",
+        "summary_sha256": "b7b3acf8c11ea9080ea3aa35ae1271d43dfe936bb71454d84f0cd4f3b0c9c3b4",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/zephyr/2022_06_03-20_54_03/Record 6_2022_06_03-20_54_03_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653204"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c1s03",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-06-01 00:00:00",
+      "2022-06-02 00:00:00",
+      "2022-06-03 00:00:00",
+      "2022-06-04 00:00:00",
+      "2022-06-05 00:00:00",
+      "2022-06-06 00:00:00",
+      "2022-06-07 00:00:00",
+      "2022-06-08 00:00:00",
+      "2022-06-09 00:00:00",
+      "2022-06-12 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_06_01-09_23_50",
+        "ecg_sha256": "43bc49beeda3573096b3a404d524f043bae8f5e1d6bdae985b899cf3c10fd86f",
+        "summary_sha256": "bf509b27fca794f9a3b26c3c83214090b475afe707a4117fc23c0a6467eb9970",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_01-09_23_50/Record 2_2022_06_01-09_23_50_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_02-15_40_28",
+        "ecg_sha256": "1dcbc531aaaab5e6c5b61d2623dff005d93f8621671fd173d736d1cbabdcacda",
+        "summary_sha256": "3582dcb00a3d96eb94e1d3306a37c1cf9f405818a69be28f49f845b2b2c33738",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_02-15_40_28/Record 4_2022_06_02-15_40_28_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_03-07_00_25",
+        "ecg_sha256": "76c7ecf8116ad94ced6090f856b27123202bcae000e48a8292de49df2430f254",
+        "summary_sha256": "bdb335390c38550fefc89c09841ee5f825d376afef3ccb591edc6117a4350a38",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_03-07_00_25/Record 6_2022_06_03-07_00_25_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_04-15_19_09",
+        "ecg_sha256": "a06f875ee02b757141e48fcba7e5dfbe84762a400241ad7940e137d41ac260f0",
+        "summary_sha256": "1bef9fadba8e0a06560446a15d5d67c637801d99f236857bed51961c50f151aa",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_04-15_19_09/Record 2_2022_06_04-15_19_09_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_05-18_54_19",
+        "ecg_sha256": "db2a9634e5a1fd4c810141972c1c469668bcda81b2a5a39cc830600ec59c8d58",
+        "summary_sha256": "3974acfbec7a7bdeeaf6607eadd5bce396d69b666519197c327ee5cf7f9fb14f",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_05-18_54_19/Record 5_2022_06_05-18_54_19_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_05-21_30_18",
+        "ecg_sha256": "962bacfec7911e8d67343b25e621770e8cf482ae915c770db07e4d28567d7195",
+        "summary_sha256": "c6c52d9f31dfdc56a5178eb3ede6a548adb5edfefe02a8591a9d9feb4621ae24",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_05-21_30_18/Record 6_2022_06_05-21_30_18_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_06-21_13_42",
+        "ecg_sha256": "43ecc34834fb832f3592feda6d19b9a46dec279ee5cd85ccf57be286000a61a3",
+        "summary_sha256": "9f072c8a8e0982ac8158ac5c66c6ab5eddc9005dff4283d8efc4ba415bd6c2ce",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_06-21_13_42/Record 8_2022_06_06-21_13_42_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_07-07_31_26",
+        "ecg_sha256": "8ebb9624fcdaf4c6adbd877c6a418fe96caf29dc424f5f6ec55d28361b2fda15",
+        "summary_sha256": "879b3c6c949a0d80c205da7f55e5287d283f4c28053d2fd33425d09a1e336ea0",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_07-07_31_26/Record 2_2022_06_07-07_31_26_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_09-07_42_29",
+        "ecg_sha256": "ad3eb6b465e3ed8d2ce929527319c9d38d2b43642eba1b47c03aa0ce08230dc6",
+        "summary_sha256": "843e28aec8b2304e2fc74fb5cdff86c39563ba0c3db481cb97965abf922b944e",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_09-07_42_29/Record 6_2022_06_09-07_42_29_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      },
+      {
+        "recording": "2022_06_12-16_52_23",
+        "ecg_sha256": "0677bb6ad2e97d8e567fa60bdd6a2173a59271cc336961601b2ecb965e638e05",
+        "summary_sha256": "a588e892b539cbf01710c90ddc699c6fe1a2051e653af54d59d99ed748639301",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/zephyr/2022_06_12-16_52_23/Record 10_2022_06_12-16_52_23_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51653708"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c1s04",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-06-04 00:00:00",
+      "2022-06-05 00:00:00",
+      "2022-06-06 00:00:00",
+      "2022-06-07 00:00:00",
+      "2022-06-12 00:00:00",
+      "2022-06-16 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_06_04-15_12_16",
+        "ecg_sha256": "06d5f9b0245a2cccdbefcf500b973ed3f09aeb3a90a2b8cb58b716eeaaa23b08",
+        "summary_sha256": "2de5c63a4a4ce64be64e8b824d01bca4e3cb2ee49a88d59f161070969c108df6",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/zephyr/2022_06_04-15_12_16/Record 3_2022_06_04-15_12_16_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655547"
+      },
+      {
+        "recording": "2022_06_05-20_17_51",
+        "ecg_sha256": "d2a5f079cbe122424ed35a504381f5f5f95b10ae0d7cfc87ad6e9e1ac789b4d7",
+        "summary_sha256": "91635751298f73f3b4dfcaf89fda2c661971438fa6d1a97146adea8da53cd47a",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/zephyr/2022_06_05-20_17_51/Record 6_2022_06_05-20_17_51_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655547"
+      },
+      {
+        "recording": "2022_06_06-20_25_35",
+        "ecg_sha256": "88664ea4b7840e6bc06ccf9659ca2dec13d7c6487def85cd17c7836646a26c1b",
+        "summary_sha256": "63e19fd6958377a59ddf4ef09bfe0c6d4983735be9b8b0b2b44a7cae5b23f975",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/zephyr/2022_06_06-20_25_35/Record 3_2022_06_06-20_25_35_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655547"
+      },
+      {
+        "recording": "2022_06_07-20_23_33",
+        "ecg_sha256": "74112b626d666c5d254f86c7cb5aad434a57c5d40fe4352fc5ce21b3a8ce1624",
+        "summary_sha256": "252f96f8456a5213dc81f309db4162f082b22aaf59580499289530ba1c54ae9c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/zephyr/2022_06_07-20_23_33/Record 4_2022_06_07-20_23_33_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655547"
+      },
+      {
+        "recording": "2022_06_12-19_31_00",
+        "ecg_sha256": "66ee65c7f5cdaf4a18b513a5d933c1ca5b9a10b596c03c5abd015a94be2d0629",
+        "summary_sha256": "7e64d7f625110c46c5f7fcfc4a7f18b20270c35be19cc2265b1fdb5ea662abdd",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/zephyr/2022_06_12-19_31_00/Record 2_2022_06_12-19_31_00_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655547"
+      },
+      {
+        "recording": "2022_06_16-20_05_19",
+        "ecg_sha256": "a3a0f93f97b2ee9933d4563d7aa60c9f2b7819b7ca5ffca74d45f0f1fb5f2f6b",
+        "summary_sha256": "1722e61b5c346ce5fe6e47e5e27d661f59c134f00799932bf77fb46a6795ab86",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/zephyr/2022_06_16-20_05_19/Record 3_2022_06_16-20_05_19_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655547"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c1s05",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-06-23 00:00:00",
+      "2022-06-24 00:00:00",
+      "2022-06-25 00:00:00",
+      "2022-06-27 00:00:00",
+      "2022-06-29 00:00:00",
+      "2022-06-30 00:00:00",
+      "2022-07-01 00:00:00",
+      "2022-07-03 00:00:00",
+      "2022-07-04 00:00:00",
+      "2022-07-05 00:00:00",
+      "2022-07-07 00:00:00",
+      "2022-07-09 00:00:00",
+      "2022-07-10 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_06_23-19_25_25",
+        "ecg_sha256": "65e0db1fdf514c99348de4b76cfa7a3d5ce39bea6f45640161d7cfa50b626551",
+        "summary_sha256": "406688fad44261165b9bb4d3bff02778475c1e91742ab3ae950c619b4e6e5333",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_06_23-19_25_25/Record 2_2022_06_23-19_25_25_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_06_24-18_52_30",
+        "ecg_sha256": "e0f7bd6a3b7ae873a96c88d8235e4ec0b7e8a98ff632af91543889a38aa06476",
+        "summary_sha256": "3324604c36d5eea475e0c889f870613bdf2c61dcb0c5cfa0ed3901bc60a745f5",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_06_24-18_52_30/ Record 3_2022_06_24-18_52_30_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_06_25-20_57_35",
+        "ecg_sha256": "4c939e29cc82e953389a1f10b3a4f3075bb8c571eae96eeb5d4ff6925024bfa2",
+        "summary_sha256": "90a1d460d213cc92378e2affcaf3ebbff3e443d351f95f611da7f777ad7042c5",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_06_25-20_57_35/ Record 5_2022_06_25-20_57_35_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_06_27-19_55_20",
+        "ecg_sha256": "75d275b909be94147dfe35d5b41a7433ab32c702ece08370625eaf327ccb5c41",
+        "summary_sha256": "e00ccf2978a8b22f2eb143f833b49642914259a220a9215c102e572446950f9c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_06_27-19_55_20/Record 2_2022_06_27-19_55_20_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_06_29-19_21_00",
+        "ecg_sha256": "a6de0daf95c9548ad65a604e0233928761d4798f72f2099baa112f81beb693ae",
+        "summary_sha256": "b717fe9b7641c8e6fdd7e8c0c5f3794eb0982159c01e800069fdbc4289d4297f",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_06_29-19_21_00/ Record 3_2022_06_29-19_21_00_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_06_30-19_51_02",
+        "ecg_sha256": "b26c10bb25c770b4678cd25d858e36f86b00bc8007e448e5673d3f59099ae503",
+        "summary_sha256": "6a65813758c47323e86b7b6db584da818931a8d3ed949cdf0735adeb7b560a6d",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_06_30-19_51_02/ Record 2_2022_06_30-19_51_02_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_01-20_05_45",
+        "ecg_sha256": "11ae352fa6ea1786c2c53b664be1c25ee4cf983f93feb5d2b6862a36a0ddc3fc",
+        "summary_sha256": "270af8d02dbfe9239e8d127c811d4f35515ca3fe49c5d752523ab7e559e1cc1a",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_01-20_05_45/Record 3_2022_07_01-20_05_45_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_03-18_15_04",
+        "ecg_sha256": "01167876d485a676df3688bc154860873f2df7ce2ded8e66d29e3728fa5d2f89",
+        "summary_sha256": "03311ffdafee5ca8c31f91c5e2f96e9353b334d14f929e6463f0a4483567424f",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_03-18_15_04/ Record 10_2022_07_03-18_15_04_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_04-14_12_11",
+        "ecg_sha256": "d0cf1108e5cb4525bfff05a536963334ffa25b16f155a1f5975c7da0971059ca",
+        "summary_sha256": "9d638b66e1f07a7b6d31e763a8128a644ae56545acfbbdc21f0911a71502eb61",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_04-14_12_11/Record 2_2022_07_04-14_12_11_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_05-21_12_43",
+        "ecg_sha256": "136949f7c5cf0d12c07fac6423b887fe3bba571997d270c72b6c3efe06fb9a1f",
+        "summary_sha256": "543f222159def892e7ac84da9c94ef87eca342a3d11d39c0583bb22f022c57b6",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_05-21_12_43/Record 4_2022_07_05-21_12_43_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_07-20_27_04",
+        "ecg_sha256": "b9ad1535e762b39a6031d39a2579b2d49cce207f8d893080ddb00abaac2d1704",
+        "summary_sha256": "3cd325642dbdaafccde1bead39c7d41b37c6803fd8ee21da2b59d2cbb7ad4ac0",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_07-20_27_04/Record 1_2022_07_07-20_27_04_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_09-15_26_37",
+        "ecg_sha256": "f79e2c0b299828b82d7a36f567edb59f4021437a9066ef747082b74733d56802",
+        "summary_sha256": "d960bc5840662f5498774b8505431d5115081e1fa0a1dd7cf2e9be09b4ecf159",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_09-15_26_37/ Record 3_2022_07_09-15_26_37_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      },
+      {
+        "recording": "2022_07_10-17_17_51",
+        "ecg_sha256": "7e49d4b2af8585c335cd5942d3abadd8a52dd23885c4e128b0f24f7e61d5d0ef",
+        "summary_sha256": "7fe8c63ef4e0f0fcc165f2f1371c92c0f2c6577c14365bcb7ba0e000810c7ef2",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/zephyr/2022_07_10-17_17_51/ Record 4_2022_07_10-17_17_51_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655562"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c2s01",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-08-29 00:00:00",
+      "2022-09-10 00:00:00",
+      "2022-09-11 00:00:00",
+      "2022-09-13 00:00:00",
+      "2022-09-19 00:00:00",
+      "2022-09-20 00:00:00",
+      "2022-09-21 00:00:00",
+      "2022-09-22 00:00:00",
+      "2022-09-23 00:00:00",
+      "2022-09-24 00:00:00",
+      "2022-09-25 00:00:00",
+      "2022-09-26 00:00:00",
+      "2022-09-27 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_08_29-07_13_28",
+        "ecg_sha256": "33bc0f3e62a516b23de71d888ab21ada3351c08311b609eba55d6921fdae6d32",
+        "summary_sha256": "d3516081bb14801ee410d5988d3fa16dbc5ef0eac86ee791f53d2358a2487f4f",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_08_29-07_13_28/Record 2_2022_08_29-07_13_28_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_10-20_08_05",
+        "ecg_sha256": "6dece1fcaecbe0906be50e3f6ce2ec33a0adf0f0b41010a38ba3ed55faa99bf1",
+        "summary_sha256": "7d03e18fc6bc05928cf68a02f9273721c44c73e74a2028bb06927e7aeed8fcca",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_10-20_08_05/Record 4_2022_09_10-20_08_05_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_11-16_59_43",
+        "ecg_sha256": "0a94961631cc80a62a626fab25ff6b8da2509d1c0f4f9722fecf3103ae557e4c",
+        "summary_sha256": "1d2c1e11462749831e1606ccfd854cc93678a6423446f941ab292032e60b5c02",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_11-16_59_43/Record 1_2022_09_11-16_59_43_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_13-12_13_46",
+        "ecg_sha256": "a272a2fea5b47af3a58924090bc1ff1896d98a6dc8f5d5cf47a981882f4a168e",
+        "summary_sha256": "cc8fc6136d8a8a4bfe4c20948023e015004fa48d55519dfdc5129b2638a53cf6",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_13-12_13_46/Record 3_2022_09_13-12_13_46_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_19-09_07_25",
+        "ecg_sha256": "3f930e2a91a55e60fbf0bfb5e185ab8cbaef27dfacdf55810a2a5f61648b9149",
+        "summary_sha256": "be34513f15bebdbc42e5fc4c7889a39661f1daeae202d0365ddee4b780a7eb8d",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_19-09_07_25/Record 2_2022_09_19-09_07_25_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_20-11_24_58",
+        "ecg_sha256": "ae7e0e27fd494e280d1d5d48b078e092de9e92dbae3cb08acd27c5fe96252f28",
+        "summary_sha256": "20d218bb7a5533049b7dfef43c400664bd78c880fd63f768dadf79340312b78f",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_20-11_24_58/Record 3_2022_09_20-11_24_58_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_21-13_24_31",
+        "ecg_sha256": "e353aa4624e45a8e01c9394fd4bc02428ae743e5468427e1f06c151768b8334a",
+        "summary_sha256": "98fca1fd6196200727b8b3f67b46b513e7db2d29bec9dacb098beb63040bac97",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_21-13_24_31/Record 1_2022_09_21-13_24_31_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_22-11_17_30",
+        "ecg_sha256": "34112a0c4bd197b6c351d79f40a2849448c8b325c33c89ec0cd537c255798cb0",
+        "summary_sha256": "5b4555f73bb2b48ddb51e4df82d2128c0152d1a3dbe0e6272f17268e3449f328",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_22-11_17_30/ Record 2_2022_09_22-11_17_30_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_23-07_56_56",
+        "ecg_sha256": "9fc87f7cfe63e33443c0068bbdd6efffa8340df863f0d4a0704d6ceff4481988",
+        "summary_sha256": "c5fcce87b968903b2c10bcb5f38609ed1641c5673c0697f04efbd755497a2df5",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_23-07_56_56/Record 3_2022_09_23-07_56_56_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_24-12_12_07",
+        "ecg_sha256": "7db39553c8de3aa23a428897bdc1b9b7136d0a11457b075a40533343bcb4c713",
+        "summary_sha256": "ae63a717ef27de853f70ca4bf6a0849a1469a8611cea5b045a77d8dd129609eb",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_24-12_12_07/ Record 4_2022_09_24-12_12_07_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_24-20_18_31",
+        "ecg_sha256": "847609c2e9873f0249fe38c037f1fab6d6329084dc00c9209f74599f9667aa30",
+        "summary_sha256": "fcab973b03bd691ae70f184d0412563a04077c2e00fffe815999b5c3d226315a",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_24-20_18_31/Record 1_2022_09_24-20_18_31_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_25-11_13_52",
+        "ecg_sha256": "7c14e155b0d27029286ad8ac21117f16fe4a7d26afc841d4085303a5b76ebb96",
+        "summary_sha256": "3d246e5d613cb1d87788b7334b0cd94e3c92d7a6aaa2c5ffa9da02174867712d",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_25-11_13_52/Record 2_2022_09_25-11_13_52_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_26-13_27_56",
+        "ecg_sha256": "d980b6bb1448c005cb72d0b9f1b9d9acbd7218f74a480bf7d9534eebe3e98b94",
+        "summary_sha256": "28dcd1c8d20b63b720fb5939cd721f176b262de1e7ab04429ba59768a158ea68",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_26-13_27_56/ Record 4_2022_09_26-13_27_56_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      },
+      {
+        "recording": "2022_09_27-12_12_01",
+        "ecg_sha256": "3fa8e175f5adca9965330dbc0cdb1d204d9938a7c641b34ceeae0c29c1f2f53c",
+        "summary_sha256": "b375cbcc18f8a427d161f715918d354b1292173444bdff5cbd575c6e78bc0786",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/zephyr/2022_09_27-12_12_01/ Record 5_2022_09_27-12_12_01_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655571"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c2s02",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-10-01 00:00:00",
+      "2022-10-02 00:00:00",
+      "2022-10-03 00:00:00",
+      "2022-10-04 00:00:00",
+      "2022-10-05 00:00:00",
+      "2022-10-08 00:00:00",
+      "2022-10-09 00:00:00",
+      "2022-10-10 00:00:00",
+      "2022-10-11 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_10_02-20_30_37",
+        "ecg_sha256": "f703e82029514e54042fe27239d8bd0730acc9d4048a9d968cbc802b36145979",
+        "summary_sha256": "7ac15adaada7c67fd84ff916cab4b31dcf881126620ab0a4646b8fc81e0d270c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s02/zephyr/2022_10_02-20_30_37/Record 1_2022_10_02-20_30_37_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655574"
+      },
+      {
+        "recording": "2022_10_03-07_29_55",
+        "ecg_sha256": "845ede101599a4cdb61b8ff807da1f474c04e93a0f94d2493f4fdc768a7c3540",
+        "summary_sha256": "21e3bfd7d819e8476dead1d0ad2a6f8ca79c786115dfd822d4923634670daa62",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s02/zephyr/2022_10_03-07_29_55/ Record 2_2022_10_03-07_29_55_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655574"
+      },
+      {
+        "recording": "2022_10_04-21_20_57",
+        "ecg_sha256": "e71a816cdf5a97c08e6d33415bafbdb376da6a9f0c46310ddb71b4d226410665",
+        "summary_sha256": "38f57903327f1012cc491f5f849f224c5ff10ebdf973c45505686efeaddaebb9",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s02/zephyr/2022_10_04-21_20_57/Record 4_2022_10_04-21_20_57_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655574"
+      },
+      {
+        "recording": "2022_10_05-14_57_24",
+        "ecg_sha256": "f17cf5001b69cb4769cc813c79b999c9d0ff291de4333b7ac00cb4333d70bff2",
+        "summary_sha256": "e648bece4cb6ed6dd97a8139e5ffaf1026cedb61a593062ca4c52b67bfd2710c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s02/zephyr/2022_10_05-14_57_24/Record 1_2022_10_05-14_57_24_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655574"
+      },
+      {
+        "recording": "2022_10_09-15_23_32",
+        "ecg_sha256": "4a17147cb0496a79ce11e06434db389eab7c5a136f7604a8539e4284f450fa70",
+        "summary_sha256": "de412caac270e2bcdbb0d1c6f922f40059550a421a165270006a32a95812ee09",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s02/zephyr/2022_10_09-15_23_32/Record 3_2022_10_09-15_23_32_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655574"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c2s03",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-10-04 00:00:00",
+      "2022-10-05 00:00:00",
+      "2022-10-07 00:00:00",
+      "2022-10-11 00:00:00",
+      "2022-10-12 00:00:00",
+      "2022-10-13 00:00:00",
+      "2022-10-14 00:00:00",
+      "2022-10-15 00:00:00",
+      "2022-10-16 00:00:00",
+      "2022-10-17 00:00:00",
+      "2022-10-18 00:00:00",
+      "2022-10-19 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_10_04-08_55_18",
+        "ecg_sha256": "043682c52119e4bd3c86a72f847c9e4def10437013781af927e7302d6318f611",
+        "summary_sha256": "1d1237b8c3ec6d66cd818805691e44b445c9418ede41cf81f4c34ee588807c06",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_04-08_55_18/ Record 4_2022_10_04-08_55_18_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_04-22_51_13",
+        "ecg_sha256": "12b280bbf2f48e3d4c799ca09ffae5ea0de08a0ddef2319e74f418016fed838f",
+        "summary_sha256": "a53b181b9d1c01e8ab6ae2f61f1c737b24f5c607066f2d979a5e77e789888024",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_04-22_51_13/Record 5_2022_10_04-22_51_13_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_05-21_35_42",
+        "ecg_sha256": "4eec4fe6761d8ca1167aa7612405b4f356ae48cf97bfbd05717eebee296c6b20",
+        "summary_sha256": "2be828d399f6c1a8e1b61b5644ef1eefe568768191b3f61074c9a73ba9f223f9",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_05-21_35_42/Record 6_2022_10_05-21_35_42_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_07-21_18_05",
+        "ecg_sha256": "004fdd242082255cc03775236bd597dd98f1ea52358abb6f6c0f7b917b1d519c",
+        "summary_sha256": "70bbf6b084ddca7ab5494b6893842c0090d2dbca30cc81c6ec197df0484c9b51",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_07-21_18_05/ Record 3_2022_10_07-21_18_05_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_11-21_34_56",
+        "ecg_sha256": "3131f3c621c0f0759df83c3daae03cb47301f332563b28da51cd5fb38e209e14",
+        "summary_sha256": "15a1a0beabd6b5019bf7503fbdcbb9c92495cb8a0b72a4b41beaf51faf93c4c2",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_11-21_34_56/Record 5_2022_10_11-21_34_56_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_12-21_42_19",
+        "ecg_sha256": "2a0f62a1d3153df8cee9f8219bc1ab83a5ad4c7f9d1609e3c7563e9b30ca5a9b",
+        "summary_sha256": "aa8b873ab9bc41e950a111bbeafa9720c95c234ee41caf88bb4194d863395faa",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_12-21_42_19/ Record 6_2022_10_12-21_42_19_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_13-04_44_43",
+        "ecg_sha256": "29816f96bef8af1d0b21c70c00c956501f165deb9af7b2cccbe7445454c44c78",
+        "summary_sha256": "92f31c41a8b0d5548199fdc6803f66139628c14d32dfcfef9ad06129f2f9a46c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_13-04_44_43/Record 1_2022_10_13-04_44_43_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_13-22_18_07",
+        "ecg_sha256": "133de0b32391f2d27e5250f575afe60d155734d0842a5afbe71ca5aef0878c52",
+        "summary_sha256": "72361c4c23a97437a8803f75066eef954eb11f0e1ea9100e7b69f98350c463d2",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_13-22_18_07/ Record 2_2022_10_13-22_18_07_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_16-09_46_17",
+        "ecg_sha256": "3b82eb2488993469fa5cbf7826f6251c9c25a2163819a6ec86264c7999c1f802",
+        "summary_sha256": "430680faf7a16b0222bc38de536fb4c0018dd6b93ecd88efe495f526849d358c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_16-09_46_17/Record 1_2022_10_16-09_46_17_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_17-20_11_12",
+        "ecg_sha256": "a3834f091c1c4b9f7c712b303d5b7c4cbc45caf5b238a5a7f4ff329e74ff8a39",
+        "summary_sha256": "69bbb600e4ab491331be77f49a9661b55d5c9a8a82c779178edc730ee5defeb5",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_17-20_11_12/Record 3_2022_10_17-20_11_12_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      },
+      {
+        "recording": "2022_10_18-21_28_11",
+        "ecg_sha256": "0506e23ad236e94dc1814f6eea6ef5efd908e0795186f5bb71d8bb22a74829af",
+        "summary_sha256": "73bb0f86add33241c6494700448b0a89caea3de073a79128ad84067f7753ca65",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/zephyr/2022_10_18-21_28_11/Record 5_2022_10_18-21_28_11_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655595"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c2s04",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-10-30 00:00:00",
+      "2022-10-31 00:00:00",
+      "2022-11-01 00:00:00",
+      "2022-11-07 00:00:00",
+      "2022-11-08 00:00:00",
+      "2022-11-09 00:00:00",
+      "2022-11-10 00:00:00",
+      "2022-11-11 00:00:00",
+      "2022-11-12 00:00:00",
+      "2022-11-14 00:00:00",
+      "2022-11-15 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_10_30-23_22_05",
+        "ecg_sha256": "62e9e2e955a7d4192c9e87924026460db4b8475e985050036fbfef5422cc08f4",
+        "summary_sha256": "0caddf1e9f598f4421db03aa307112af6d35769277ddac779b5da4ffcc8a9e94",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_10_30-23_22_05/Record 4_2022_10_30-23_22_05_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_10_31-23_03_44",
+        "ecg_sha256": "23097453c0aeec0a955d422d5f88d931b676be59fb5252ff6ecd6e08565025fb",
+        "summary_sha256": "d4788c4277399e961c41ec9ddb74762295f130f49198280faa50a8bfa41c9a90",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_10_31-23_03_44/Record 5_2022_10_31-23_03_44_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_07-00_06_59",
+        "ecg_sha256": "de75cff1dc995e7faa0a81847ccf6ff3051a0822f231915a43eba17366ba712a",
+        "summary_sha256": "888e11b6b4dc27bc02be19f40de85eb50629525a5a93bb9ef1a653c00438eaee",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_07-00_06_59/Record 4_2022_11_07-00_06_59_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_07-20_29_23",
+        "ecg_sha256": "1d877e05fd12ef4ed1bf35f3259bdb00ccd7a3a917944b54f6dededc1bbb1088",
+        "summary_sha256": "e0540fce45680aab3b90864663335cdb25c189d46b9bb72604866ca2dec8852c",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_07-20_29_23/Record 1_2022_11_07-20_29_23_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_07-22_50_02",
+        "ecg_sha256": "a33f17b0734eb18d514533d77f7245bfb1acbc0832554befcc76acc288c78894",
+        "summary_sha256": "ca801c7bdcffc46df15e6c88a64385c2617182aae3cd2f9e30fbff0eb70e1af5",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_07-22_50_02/Record 2_2022_11_07-22_50_02_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_10-19_05_53",
+        "ecg_sha256": "b4cd6630ee2127593d3c3d4f80efe5866b3d1bafd6c73e47231d83963316ba6d",
+        "summary_sha256": "c77ad0936b2eb1b493562eb8e44907f22d3dfe57906f4562dfc4d24fd5a80b0a",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_10-19_05_53/Record 1_2022_11_10-19_05_53_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_10-22_45_02",
+        "ecg_sha256": "475b4c5c32b0160042fe6bcb12c639a0449a8748926ea079c1ab9746b38ea962",
+        "summary_sha256": "68761a7d189189c08b2cebf29df48ec58f20e8f8f0f99b9dc14f4e149c584e46",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_10-22_45_02/Record 2_2022_11_10-22_45_02_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_12-00_44_21",
+        "ecg_sha256": "65de9071da7a69fbf220a3ea1574c59afb865a70a94c2658302f2339632fecab",
+        "summary_sha256": "8cf59cd6d414412d9aee41ac0b2317b6e30cf30be56f6f0539744d6ed95bc351",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_12-00_44_21/Record 3_2022_11_12-00_44_21_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      },
+      {
+        "recording": "2022_11_14-23_02_50",
+        "ecg_sha256": "bd919babf0efa122461cc4b7ae74c2c550c4e2c8597a46b13bd3f582e1424609",
+        "summary_sha256": "0b26586f09757d193c64c1b4f078fb5e157b128c75c249cfe72f32e8f752bf4a",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/zephyr/2022_11_14-23_02_50/Record 2_2022_11_14-23_02_50_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655601"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  },
+  {
+    "subject": "c2s05",
+    "code_sha256": "7c357f70986e1d76fb98d054f88f9e5feafc0661b85bc1f1f4bc88ff7b573a64",
+    "settings": {
+      "start_hour": 20,
+      "end_hour": 22,
+      "sampling_rate": 250,
+      "window_seconds": 300,
+      "hr_confidence": 100,
+      "max_ecg_noise": 0.001,
+      "rr_min_ms": 400,
+      "rr_max_ms": 2000,
+      "rr_local_deviation": 0.2,
+      "max_corrected_rr_fraction": 0.05,
+      "minimum_windows_per_night": 6,
+      "aggregation": "median of accepted non-overlapping five-minute windows"
+    },
+    "nights": [
+      "2022-12-02 00:00:00",
+      "2022-12-03 00:00:00",
+      "2022-12-04 00:00:00",
+      "2022-12-06 00:00:00",
+      "2022-12-08 00:00:00",
+      "2022-12-10 00:00:00",
+      "2022-12-12 00:00:00"
+    ],
+    "sources": [
+      {
+        "recording": "2022_12_02-19_15_11",
+        "ecg_sha256": "b0f7af54d28f9cb7a1b2bca226baafe243eb98759a8dabaaa0ddb8a567e82eee",
+        "summary_sha256": "cf4dfe25336de7e6523075deede534f0193403b9f4e33a9c44f4e82b489f1937",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s05/zephyr/2022_12_02-19_15_11/Record 3_2022_12_02-19_15_11_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655613"
+      },
+      {
+        "recording": "2022_12_03-12_37_36",
+        "ecg_sha256": "5260880f23db28642306cbfbef440adbe5655c1c9c6e01fe9bb2df55282a6c4f",
+        "summary_sha256": "050b96b1029119431c98ba45feb87c82367b19340d7a538bedc29d5baee8c358",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s05/zephyr/2022_12_03-12_37_36/ Record 3_2022_12_03-12_37_36_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655613"
+      },
+      {
+        "recording": "2022_12_05-20_38_10",
+        "ecg_sha256": "eca9c52097b9c7193f501fffbcb6e1e6c2bca25395e6514258bae00c6aefd8c9",
+        "summary_sha256": "8edb47af77b3e19090928724a5afcfaffd50d2dfb2e0be7b37f97745159a489e",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s05/zephyr/2022_12_05-20_38_10/Record 3_2022_12_05-20_38_10_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655613"
+      },
+      {
+        "recording": "2022_12_10-21_27_21",
+        "ecg_sha256": "9d909f322d7985dc21eb80db6aa6362f25fe549f156b5570167e5fca836d88be",
+        "summary_sha256": "07f977eab708fc05d13f8c640f288b5ef7117f1798d0d07163b2c572ad885edd",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s05/zephyr/2022_12_10-21_27_21/Record 2_2022_12_10-21_27_21_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655613"
+      },
+      {
+        "recording": "2022_12_12-19_36_22",
+        "ecg_sha256": "144aef38c15910196c2627c966ac4b105c71d02b6412eb6cfeafd357a1393f73",
+        "summary_sha256": "d5e572681069b78c50886ac62356f1aa275ddb2dd9682be39a77c1dc85ec16d0",
+        "ecg_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s05/zephyr/2022_12_12-19_36_22/ Record 4_2022_12_12-19_36_22_ECG.csv",
+        "source_url": "https://ndownloader.figshare.com/files/51655613"
+      }
+    ],
+    "neurokit2": "0.2.13",
+    "aggregation_code_sha256": "95dd55536975bf8072ec90028a32b1224997c0f810185a6ba2b96a8212d2ec6f",
+    "aggregation_boundary_policy": "Reject nominal window ends after 22:00 even when all recorded samples precede the cutoff"
+  }
+]

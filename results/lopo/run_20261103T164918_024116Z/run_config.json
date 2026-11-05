@@ -1,0 +1,164 @@
+{
+  "input_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/processed/model_data.parquet",
+  "input_sha256": "c37c781baf5f19269c4fcdbe0a2283846aa4a82860f75358696aa2d1e2920989",
+  "validation_status": "glucose/HRV inputs rebuilt pre-22:00; exploratory because stored outcome construction and original cohort selection remain unverified",
+  "rebuilt_hrv_file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/processed/presleep_hrv_20_22.parquet",
+  "rebuilt_hrv_sha256": "c4813c0e921cd17eb1be98b8d0e103bf14d14954ad26b8b85e3c9ddb3f67066d",
+  "code_sha256": "dba1d6cc11bedfb09e112db7ebc80da66211824c3cb70e314d64bc9a7085b4cb",
+  "config": {
+    "prediction_hour": 22,
+    "daytime_start_hour": 10,
+    "presleep_glucose_hours": 2,
+    "low_mg_dl": 70.0,
+    "cgm_interval_minutes": 5,
+    "min_daytime_coverage": 0.8,
+    "min_hrv_history": 2,
+    "n_bootstraps": 1000,
+    "bootstrap_seed": 20261026,
+    "n_permutations": 199,
+    "permutation_seed": 20261102
+  },
+  "cgm_inputs": {
+    "c1s01": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s01/cgm.csv",
+      "sha256": "e02cd86854dc5925fb2f4af60761705a34e2fac505c154ad8fb176dbefb19f33",
+      "conflicting_timestamps_excluded": 2
+    },
+    "c1s02": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s02/cgm.csv",
+      "sha256": "895e0db2e796ce1cadfea20bad9f839e114d2d3d47ff9c026986210dd9c10cba",
+      "conflicting_timestamps_excluded": 0
+    },
+    "c1s03": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s03/cgm.csv",
+      "sha256": "171695afe91fafde40bf941f7ab686b83d6bdd8cc9bdb3af9fdd16cf2808bd53",
+      "conflicting_timestamps_excluded": 5
+    },
+    "c1s04": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s04/cgm.csv",
+      "sha256": "d6b041c157a66421183daca45b5c11cf9449f33e5ac1f93be89535e12fded045",
+      "conflicting_timestamps_excluded": 0
+    },
+    "c1s05": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c1s05/cgm.csv",
+      "sha256": "6eefba74dcb2003c5ab0e45003f9424dbc020d350ece1b5805f35ee38db6f5a8",
+      "conflicting_timestamps_excluded": 0
+    },
+    "c2s01": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s01/cgm.csv",
+      "sha256": "056f519b309ba114582ddbbe2c3d89cf058b459edcce5ebad46be87b5531c87a",
+      "conflicting_timestamps_excluded": 8
+    },
+    "c2s02": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s02/cgm.csv",
+      "sha256": "7fd3f931bdda595d18169c0eb385b6fcf7fc4dbe32697ad57d678cf5e5b38e22",
+      "conflicting_timestamps_excluded": 0
+    },
+    "c2s03": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s03/cgm.csv",
+      "sha256": "e866ea3f157619e41130c4465c7effd400c49e61430010b6469fb7219056c6e8",
+      "conflicting_timestamps_excluded": 7
+    },
+    "c2s04": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s04/cgm.csv",
+      "sha256": "f1eec50d92700905fa36ede3f642519dfd62849c8b8e76b6475f22230cf9c83c",
+      "conflicting_timestamps_excluded": 10
+    },
+    "c2s05": {
+      "file": "/Users/aryan/Documents/GitHub/SleepGuard/data/physiocgm/raw/c2s05/cgm.csv",
+      "sha256": "8fdb849a7f6201946f01e41986153735cd447b8c9107526f0299bb896e6b6dfc",
+      "conflicting_timestamps_excluded": 52
+    }
+  },
+  "feature_sets": {
+    "A": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "prior_night_low",
+      "daytime_low",
+      "earlier_night_low_rate"
+    ],
+    "B1": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "prior_night_low",
+      "daytime_low",
+      "earlier_night_low_rate",
+      "rmssd_presleep_z"
+    ],
+    "B2": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "prior_night_low",
+      "daytime_low",
+      "earlier_night_low_rate",
+      "lfhf_presleep_z"
+    ],
+    "B3": [
+      "mean_glucose_presleep",
+      "glucose_slope_presleep",
+      "prior_night_low",
+      "daytime_low",
+      "earlier_night_low_rate",
+      "rmssd_presleep_z",
+      "lfhf_presleep_z"
+    ]
+  },
+  "classifiers": {
+    "logistic": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 5000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "random_forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 10,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "primary_comparison": "logistic B3-A",
+  "timing": "Recording-local naive times: daytime [10:00,22:00), prediction 22:00, previous night ends 10:00. Calendar-day keys are not measured sleep onset.",
+  "glucose_correction": "Mean and OLS slope (mg/dL/hour) rebuilt from [20:00,22:00), with >=80% 5-minute-bin coverage. Original values and post-cutoff matches preserved in glucose_timing_audit.csv. No outcome labels redefined.",
+  "history": "Earlier known labels in the supplied model table only (complete outcomes or observed positives). Label availability fixed before permutations. Prior night is exact preceding calendar day; gaps missing. Held-out history is available sequentially, but never used to fit models.",
+  "hrv_normalization": "Within-patient expanding mean/sample SD shifted by one night. At least two finite prior measurements and positive SD; otherwise missing.",
+  "daytime_low": "Any EGV <70 mg/dL in [10:00,22:00), requiring >=80% occupied 5-minute bins. This is a low-reading indicator, not a duration-defined episode.",
+  "missing_policy": "Complete-case on four original predictors; history missingness retained and median-imputed with indicators using training patients only. All-empty training features filled with 0.",
+  "pr_auc_definition": "Non-interpolated average precision (sklearn.metrics.average_precision_score). Single-class patients NA for both ranking metrics, retained in pooled estimates.",
+  "bootstrap": "Paired patient-cluster percentile intervals of fixed OOF scores; multiplicity preserved; does not include refitting uncertainty.",
+  "permutation": "Primary logistic A and B3 refit for each global and within-patient shuffle. All outcome-derived histories rebuilt from shuffled labels; raw CGM and HRV unchanged. Upper-tail +1 p-values; global IID negative control and restricted burden-preserving null are exploratory, not evidence that upstream features are leakage-free.",
+  "hrv_extraction": "ECG exclusively [20:00,22:00); original HRV replaced. Six accepted five-minute windows required, median aggregation. Full extraction settings, timestamps, software version and raw-file hashes in hrv_extraction_sources.json and hrv_timing_audit.csv.",
+  "upstream_limitations": "Original Model_Eligible/cohort selection and stored outcome labels retained, not reconstructed for the 22:00 cutoff. Historical labels and HRV references limited to selected model-table nights; no claim of leakage-free validation.",
+  "versions": {
+    "python": "3.14.3",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.1"
+  }
+}

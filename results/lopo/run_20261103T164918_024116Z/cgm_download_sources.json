@@ -1,0 +1,65 @@
+[
+  {
+    "subject": "c1s02",
+    "url": "https://ndownloader.figshare.com/files/51653204",
+    "zip_member": "cgm.csv",
+    "crc32": 2576913403,
+    "bytes": 1402880
+  },
+  {
+    "subject": "c1s03",
+    "url": "https://ndownloader.figshare.com/files/51653708",
+    "zip_member": "cgm.csv",
+    "crc32": 13414416,
+    "bytes": 1682325
+  },
+  {
+    "subject": "c1s04",
+    "url": "https://ndownloader.figshare.com/files/51655547",
+    "zip_member": "cgm.csv",
+    "crc32": 2995605529,
+    "bytes": 305282
+  },
+  {
+    "subject": "c1s05",
+    "url": "https://ndownloader.figshare.com/files/51655562",
+    "zip_member": "cgm.csv",
+    "crc32": 3391036669,
+    "bytes": 1666122
+  },
+  {
+    "subject": "c2s01",
+    "url": "https://ndownloader.figshare.com/files/51655571",
+    "zip_member": "cgm.csv",
+    "crc32": 3301018726,
+    "bytes": 1681653
+  },
+  {
+    "subject": "c2s02",
+    "url": "https://ndownloader.figshare.com/files/51655574",
+    "zip_member": "cgm.csv",
+    "crc32": 1291841624,
+    "bytes": 1692901
+  },
+  {
+    "subject": "c2s03",
+    "url": "https://ndownloader.figshare.com/files/51655595",
+    "zip_member": "cgm.csv",
+    "crc32": 2483009852,
+    "bytes": 1611588
+  },
+  {
+    "subject": "c2s04",
+    "url": "https://ndownloader.figshare.com/files/51655601",
+    "zip_member": "cgm.csv",
+    "crc32": 988468576,
+    "bytes": 1690645
+  },
+  {
+    "subject": "c2s05",
+    "url": "https://ndownloader.figshare.com/files/51655613",
+    "zip_member": "cgm.csv",
+    "crc32": 2046747654,
+    "bytes": 1655130
+  }
+]
