@@ -1,0 +1,161 @@
+model,held_out_subject,setting,inner_auroc,synthetic_fraction,synthetic_rows_per_fit,real_training_nights
+linear_logistic__real__glucose,c1s01,"(0.01,)",0.6880580357142857,0.0,0,92
+linear_logistic__real__glucose_rmssd,c1s01,"(1.0,)",0.6981026785714286,0.0,0,92
+linear_logistic__real__glucose_lf_hf,c1s01,"(0.01,)",0.59375,0.0,0,92
+linear_logistic__real__glucose_both,c1s01,"(0.01,)",0.5970982142857142,0.0,0,92
+linear_logistic__augmented__glucose,c1s01,"(0.1,)",0.6869419642857143,0.25,22,92
+linear_logistic__augmented__glucose_rmssd,c1s01,"(10.0,)",0.6981026785714286,0.25,22,92
+linear_logistic__augmented__glucose_lf_hf,c1s01,"(0.01,)",0.6010044642857142,0.25,22,92
+linear_logistic__augmented__glucose_both,c1s01,"(0.01,)",0.6088169642857143,0.25,22,92
+small_forest__real__glucose,c1s01,"(3, 4)",0.6886160714285715,0.0,0,92
+small_forest__real__glucose_rmssd,c1s01,"(3, 8)",0.6604352678571428,0.0,0,92
+small_forest__real__glucose_lf_hf,c1s01,"(3, 8)",0.6169084821428571,0.0,0,92
+small_forest__real__glucose_both,c1s01,"(3, 8)",0.5862165178571429,0.0,0,92
+small_forest__augmented__glucose,c1s01,"(2, 8)",0.6576450892857144,1.0,90,92
+small_forest__augmented__glucose_rmssd,c1s01,"(3, 8)",0.6489955357142857,1.0,90,92
+small_forest__augmented__glucose_lf_hf,c1s01,"(3, 8)",0.580078125,0.25,22,92
+small_forest__augmented__glucose_both,c1s01,"(3, 8)",0.5502232142857143,0.25,22,92
+linear_logistic__real__glucose,c1s02,"(0.01,)",0.5902659875495189,0.0,0,88
+linear_logistic__real__glucose_rmssd,c1s02,"(10.0,)",0.5840407470288624,0.0,0,88
+linear_logistic__real__glucose_lf_hf,c1s02,"(10.0,)",0.5031126202603282,0.0,0,88
+linear_logistic__real__glucose_both,c1s02,"(10.0,)",0.5127334465195246,0.0,0,88
+linear_logistic__augmented__glucose,c1s02,"(0.01,)",0.5942275042444821,0.25,22,88
+linear_logistic__augmented__glucose_rmssd,c1s02,"(10.0,)",0.5919637804187889,0.25,22,88
+linear_logistic__augmented__glucose_lf_hf,c1s02,"(1.0,)",0.5121675155631014,0.25,22,88
+linear_logistic__augmented__glucose_both,c1s02,"(10.0,)",0.5161290322580645,0.25,22,88
+small_forest__real__glucose,c1s02,"(2, 8)",0.546406338426712,0.0,0,88
+small_forest__real__glucose_rmssd,c1s02,"(3, 8)",0.5421618562535371,0.0,0,88
+small_forest__real__glucose_lf_hf,c1s02,"(3, 4)",0.40407470288624786,0.0,0,88
+small_forest__real__glucose_both,c1s02,"(2, 8)",0.49122807017543857,0.0,0,88
+small_forest__augmented__glucose,c1s02,"(3, 8)",0.5560271646859083,1.0,86,88
+small_forest__augmented__glucose_rmssd,c1s02,"(3, 4)",0.5676287492925862,1.0,86,88
+small_forest__augmented__glucose_lf_hf,c1s02,"(2, 8)",0.4425580079230334,1.0,86,88
+small_forest__augmented__glucose_both,c1s02,"(3, 4)",0.4380305602716469,1.0,86,88
+linear_logistic__real__glucose,c1s03,"(0.01,)",0.6620689655172414,0.0,0,89
+linear_logistic__real__glucose_rmssd,c1s03,"(0.01,)",0.6781609195402298,0.0,0,89
+linear_logistic__real__glucose_lf_hf,c1s03,"(1.0,)",0.5701149425287356,0.0,0,89
+linear_logistic__real__glucose_both,c1s03,"(1.0,)",0.5873563218390804,0.0,0,89
+linear_logistic__augmented__glucose,c1s03,"(0.01,)",0.6637931034482759,0.25,22,89
+linear_logistic__augmented__glucose_rmssd,c1s03,"(10.0,)",0.6787356321839081,0.25,22,89
+linear_logistic__augmented__glucose_lf_hf,c1s03,"(1.0,)",0.6057471264367816,0.25,22,89
+linear_logistic__augmented__glucose_both,c1s03,"(10.0,)",0.6247126436781608,0.25,22,89
+small_forest__real__glucose,c1s03,"(2, 8)",0.6244252873563219,0.0,0,89
+small_forest__real__glucose_rmssd,c1s03,"(3, 4)",0.6563218390804598,0.0,0,89
+small_forest__real__glucose_lf_hf,c1s03,"(3, 8)",0.5614942528735632,0.0,0,89
+small_forest__real__glucose_both,c1s03,"(3, 4)",0.5344827586206897,0.0,0,89
+small_forest__augmented__glucose,c1s03,"(2, 8)",0.617816091954023,1.0,87,89
+small_forest__augmented__glucose_rmssd,c1s03,"(2, 8)",0.6439655172413794,1.0,87,89
+small_forest__augmented__glucose_lf_hf,c1s03,"(2, 8)",0.5729885057471265,0.25,22,89
+small_forest__augmented__glucose_both,c1s03,"(2, 8)",0.6169540229885058,1.0,87,89
+linear_logistic__real__glucose,c1s04,"(0.01,)",0.635978835978836,0.0,0,93
+linear_logistic__real__glucose_rmssd,c1s04,"(10.0,)",0.6433862433862434,0.0,0,93
+linear_logistic__real__glucose_lf_hf,c1s04,"(0.01,)",0.5724867724867725,0.0,0,93
+linear_logistic__real__glucose_both,c1s04,"(0.01,)",0.5677248677248677,0.0,0,93
+linear_logistic__augmented__glucose,c1s04,"(0.01,)",0.6492063492063492,1.0,92,93
+linear_logistic__augmented__glucose_rmssd,c1s04,"(0.01,)",0.655026455026455,1.0,92,93
+linear_logistic__augmented__glucose_lf_hf,c1s04,"(0.01,)",0.5994708994708995,0.25,23,93
+linear_logistic__augmented__glucose_both,c1s04,"(0.01,)",0.5936507936507937,0.25,23,93
+small_forest__real__glucose,c1s04,"(2, 8)",0.598941798941799,0.0,0,93
+small_forest__real__glucose_rmssd,c1s04,"(3, 4)",0.587037037037037,0.0,0,93
+small_forest__real__glucose_lf_hf,c1s04,"(3, 8)",0.605026455026455,0.0,0,93
+small_forest__real__glucose_both,c1s04,"(3, 8)",0.570899470899471,0.0,0,93
+small_forest__augmented__glucose,c1s04,"(2, 8)",0.6134920634920635,1.0,92,93
+small_forest__augmented__glucose_rmssd,c1s04,"(3, 4)",0.6190476190476192,1.0,92,93
+small_forest__augmented__glucose_lf_hf,c1s04,"(3, 8)",0.5952380952380952,1.0,92,93
+small_forest__augmented__glucose_both,c1s04,"(3, 8)",0.5878306878306879,0.25,23,93
+linear_logistic__real__glucose,c1s05,"(0.1,)",0.6268852459016393,0.0,0,86
+linear_logistic__real__glucose_rmssd,c1s05,"(0.01,)",0.6118032786885246,0.0,0,86
+linear_logistic__real__glucose_lf_hf,c1s05,"(10.0,)",0.5875409836065574,0.0,0,86
+linear_logistic__real__glucose_both,c1s05,"(10.0,)",0.5822950819672131,0.0,0,86
+linear_logistic__augmented__glucose,c1s05,"(0.01,)",0.6295081967213114,0.25,21,86
+linear_logistic__augmented__glucose_rmssd,c1s05,"(0.01,)",0.6111475409836066,0.25,21,86
+linear_logistic__augmented__glucose_lf_hf,c1s05,"(0.1,)",0.5921311475409835,1.0,84,86
+linear_logistic__augmented__glucose_both,c1s05,"(1.0,)",0.5875409836065574,1.0,84,86
+small_forest__real__glucose,c1s05,"(2, 8)",0.6032786885245902,0.0,0,86
+small_forest__real__glucose_rmssd,c1s05,"(3, 4)",0.6645901639344262,0.0,0,86
+small_forest__real__glucose_lf_hf,c1s05,"(3, 8)",0.48327868852459016,0.0,0,86
+small_forest__real__glucose_both,c1s05,"(3, 8)",0.518360655737705,0.0,0,86
+small_forest__augmented__glucose,c1s05,"(3, 8)",0.5983606557377049,1.0,84,86
+small_forest__augmented__glucose_rmssd,c1s05,"(2, 4)",0.6242622950819673,0.25,21,86
+small_forest__augmented__glucose_lf_hf,c1s05,"(3, 8)",0.5147540983606558,1.0,84,86
+small_forest__augmented__glucose_both,c1s05,"(3, 8)",0.5688524590163935,1.0,84,86
+linear_logistic__real__glucose,c2s01,"(0.01,)",0.6692307692307693,0.0,0,86
+linear_logistic__real__glucose_rmssd,c2s01,"(0.01,)",0.6711538461538461,0.0,0,86
+linear_logistic__real__glucose_lf_hf,c2s01,"(0.1,)",0.632051282051282,0.0,0,86
+linear_logistic__real__glucose_both,c2s01,"(1.0,)",0.6294871794871795,0.0,0,86
+linear_logistic__augmented__glucose,c2s01,"(0.01,)",0.6698717948717949,1.0,84,86
+linear_logistic__augmented__glucose_rmssd,c2s01,"(0.01,)",0.666025641025641,1.0,84,86
+linear_logistic__augmented__glucose_lf_hf,c2s01,"(0.01,)",0.639102564102564,1.0,84,86
+linear_logistic__augmented__glucose_both,c2s01,"(10.0,)",0.6320512820512821,1.0,84,86
+small_forest__real__glucose,c2s01,"(3, 8)",0.5750000000000001,0.0,0,86
+small_forest__real__glucose_rmssd,c2s01,"(3, 8)",0.5849358974358975,0.0,0,86
+small_forest__real__glucose_lf_hf,c2s01,"(2, 8)",0.5157051282051281,0.0,0,86
+small_forest__real__glucose_both,c2s01,"(3, 8)",0.4948717948717949,0.0,0,86
+small_forest__augmented__glucose,c2s01,"(2, 8)",0.5727564102564102,1.0,84,86
+small_forest__augmented__glucose_rmssd,c2s01,"(2, 4)",0.5628205128205128,1.0,84,86
+small_forest__augmented__glucose_lf_hf,c2s01,"(3, 8)",0.47948717948717945,1.0,84,86
+small_forest__augmented__glucose_both,c2s01,"(2, 8)",0.5173076923076922,0.25,21,86
+linear_logistic__real__glucose,c2s02,"(1.0,)",0.6619559072922555,0.0,0,90
+linear_logistic__real__glucose_rmssd,c2s02,"(0.1,)",0.6608253250423968,0.0,0,90
+linear_logistic__real__glucose_lf_hf,c2s02,"(0.1,)",0.6489542114188807,0.0,0,90
+linear_logistic__real__glucose_both,c2s02,"(0.01,)",0.639344262295082,0.0,0,90
+linear_logistic__augmented__glucose,c2s02,"(10.0,)",0.6591294516676088,1.0,88,90
+linear_logistic__augmented__glucose_rmssd,c2s02,"(0.1,)",0.6591294516676088,1.0,88,90
+linear_logistic__augmented__glucose_lf_hf,c2s02,"(0.1,)",0.6596947427925381,0.25,22,90
+linear_logistic__augmented__glucose_both,c2s02,"(0.1,)",0.6551724137931034,0.25,22,90
+small_forest__real__glucose,c2s02,"(3, 4)",0.6842849067269644,0.0,0,90
+small_forest__real__glucose_rmssd,c2s02,"(3, 8)",0.6571509327303562,0.0,0,90
+small_forest__real__glucose_lf_hf,c2s02,"(3, 8)",0.641888072357264,0.0,0,90
+small_forest__real__glucose_both,c2s02,"(3, 8)",0.6506500847936687,0.0,0,90
+small_forest__augmented__glucose,c2s02,"(2, 8)",0.6678914641040135,1.0,88,90
+small_forest__augmented__glucose_rmssd,c2s02,"(3, 8)",0.6636517806670434,1.0,88,90
+small_forest__augmented__glucose_lf_hf,c2s02,"(2, 8)",0.6449971735443754,0.25,22,90
+small_forest__augmented__glucose_both,c2s02,"(2, 8)",0.6743923120407009,1.0,88,90
+linear_logistic__real__glucose,c2s03,"(10.0,)",0.657550535077289,0.0,0,87
+linear_logistic__real__glucose_rmssd,c2s03,"(10.0,)",0.6474435196195005,0.0,0,87
+linear_logistic__real__glucose_lf_hf,c2s03,"(10.0,)",0.603448275862069,0.0,0,87
+linear_logistic__real__glucose_both,c2s03,"(10.0,)",0.6105826397146255,0.0,0,87
+linear_logistic__augmented__glucose,c2s03,"(10.0,)",0.6837098692033294,0.25,21,87
+linear_logistic__augmented__glucose_rmssd,c2s03,"(0.1,)",0.6848989298454221,0.25,21,87
+linear_logistic__augmented__glucose_lf_hf,c2s03,"(10.0,)",0.6349583828775267,0.25,21,87
+linear_logistic__augmented__glucose_both,c2s03,"(10.0,)",0.6438763376932224,0.25,21,87
+small_forest__real__glucose,c2s03,"(2, 8)",0.6703329369797859,0.0,0,87
+small_forest__real__glucose_rmssd,c2s03,"(3, 8)",0.665576694411415,0.0,0,87
+small_forest__real__glucose_lf_hf,c2s03,"(3, 8)",0.5820451843043996,0.0,0,87
+small_forest__real__glucose_both,c2s03,"(3, 8)",0.6016646848989299,0.0,0,87
+small_forest__augmented__glucose,c2s03,"(2, 8)",0.6646848989298454,0.25,21,87
+small_forest__augmented__glucose_rmssd,c2s03,"(3, 4)",0.6637931034482758,1.0,85,87
+small_forest__augmented__glucose_lf_hf,c2s03,"(2, 8)",0.6617122473246135,0.25,21,87
+small_forest__augmented__glucose_both,c2s03,"(2, 8)",0.6358501783590963,0.25,21,87
+linear_logistic__real__glucose,c2s04,"(0.1,)",0.6095931997571342,0.0,0,88
+linear_logistic__real__glucose_rmssd,c2s04,"(0.1,)",0.5840922890103218,0.0,0,88
+linear_logistic__real__glucose_lf_hf,c2s04,"(0.01,)",0.5391621129326047,0.0,0,88
+linear_logistic__real__glucose_both,c2s04,"(10.0,)",0.5561627200971464,0.0,0,88
+linear_logistic__augmented__glucose,c2s04,"(0.01,)",0.6302367941712204,0.25,22,88
+linear_logistic__augmented__glucose_rmssd,c2s04,"(0.1,)",0.6059502125075895,0.25,22,88
+linear_logistic__augmented__glucose_lf_hf,c2s04,"(0.01,)",0.5343047965998785,1.0,86,88
+linear_logistic__augmented__glucose_both,c2s04,"(10.0,)",0.559805707346691,1.0,86,88
+small_forest__real__glucose,c2s04,"(2, 8)",0.5974499089253187,0.0,0,88
+small_forest__real__glucose_rmssd,c2s04,"(3, 8)",0.5585913782635094,0.0,0,88
+small_forest__real__glucose_lf_hf,c2s04,"(3, 4)",0.5018214936247724,0.0,0,88
+small_forest__real__glucose_both,c2s04,"(2, 8)",0.4966605950212508,0.0,0,88
+small_forest__augmented__glucose,c2s04,"(2, 8)",0.5819672131147541,0.25,22,88
+small_forest__augmented__glucose_rmssd,c2s04,"(3, 8)",0.611718275652702,0.25,22,88
+small_forest__augmented__glucose_lf_hf,c2s04,"(3, 8)",0.49423193685488764,0.25,22,88
+small_forest__augmented__glucose_both,c2s04,"(2, 4)",0.5239829993928354,1.0,86,88
+linear_logistic__real__glucose,c2s05,"(0.01,)",0.6352238805970148,0.0,0,92
+linear_logistic__real__glucose_rmssd,c2s05,"(0.1,)",0.6507462686567164,0.0,0,92
+linear_logistic__real__glucose_lf_hf,c2s05,"(0.01,)",0.634626865671642,0.0,0,92
+linear_logistic__real__glucose_both,c2s05,"(0.1,)",0.6692537313432836,0.0,0,92
+linear_logistic__augmented__glucose,c2s05,"(0.1,)",0.6328358208955225,1.0,91,92
+linear_logistic__augmented__glucose_rmssd,c2s05,"(0.01,)",0.6608955223880597,0.25,23,92
+linear_logistic__augmented__glucose_lf_hf,c2s05,"(0.01,)",0.6370149253731344,0.25,23,92
+linear_logistic__augmented__glucose_both,c2s05,"(0.1,)",0.671044776119403,0.25,23,92
+small_forest__real__glucose,c2s05,"(3, 4)",0.6370149253731342,0.0,0,92
+small_forest__real__glucose_rmssd,c2s05,"(2, 4)",0.6092537313432836,0.0,0,92
+small_forest__real__glucose_lf_hf,c2s05,"(3, 8)",0.637313432835821,0.0,0,92
+small_forest__real__glucose_both,c2s05,"(3, 4)",0.6301492537313433,0.0,0,92
+small_forest__augmented__glucose,c2s05,"(3, 8)",0.6035820895522388,1.0,91,92
+small_forest__augmented__glucose_rmssd,c2s05,"(2, 4)",0.6095522388059702,1.0,91,92
+small_forest__augmented__glucose_lf_hf,c2s05,"(3, 8)",0.6426865671641792,1.0,91,92
+small_forest__augmented__glucose_both,c2s05,"(3, 4)",0.6411940298507461,0.25,23,92
